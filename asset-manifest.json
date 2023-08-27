@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/OvertaleGitTraining/static/css/main.073c9b0a.css",
+    "main.js": "/OvertaleGitTraining/static/js/main.a4172a7e.js",
+    "static/js/787.c01559cd.chunk.js": "/OvertaleGitTraining/static/js/787.c01559cd.chunk.js",
+    "static/media/logo.svg": "/OvertaleGitTraining/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/OvertaleGitTraining/index.html",
+    "main.073c9b0a.css.map": "/OvertaleGitTraining/static/css/main.073c9b0a.css.map",
+    "main.a4172a7e.js.map": "/OvertaleGitTraining/static/js/main.a4172a7e.js.map",
+    "787.c01559cd.chunk.js.map": "/OvertaleGitTraining/static/js/787.c01559cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a4172a7e.js"
+  ]
+}
