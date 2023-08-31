@@ -1,8 +1,5 @@
 import { useState, useEffect, Attributes } from 'react'
 import '@scss/Post.scss'
-import ReactMarkdown from 'react-markdown'
-import moment from 'moment'
-import { useParams } from 'react-router-dom';
 import { FindPost, Parse } from '@root/utils/post';
 import { Post } from '@root/react-app-env';
 

@@ -1,9 +1,5 @@
-import { useState, useEffect } from 'react'
 import '@scss/Post.scss'
-import ReactMarkdown from 'react-markdown'
 import { Post } from '@root/react-app-env';
-import moment from 'moment'
-import { useParams } from 'react-router-dom';
 import data from '@root/datas/data.json'
 
 export const FindAllPosts= ():string[] => {
