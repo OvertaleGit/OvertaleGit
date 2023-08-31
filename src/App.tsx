@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import '@scss/App.scss';
 import Header from '@pages/HomeHeader';
@@ -6,8 +6,13 @@ import Main from '@pages/Main';
 import NotFound from '@pages/NotFound';
 import Posting from '@root/pages/Post'
 import Posts from '@pages/Post/Posts';
+import { InitPostMap } from '@utils/post';
 
 function App() {
+  useEffect(() => {
+    InitPostMap();
+  })
+
   return (
     <div className="App">
       <div>

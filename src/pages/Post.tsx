@@ -7,6 +7,7 @@ import HookPost from '@root/hooks/hookPost';
 
 export const Posting=():JSX.Element => {
     const { id } = useParams(); 
+    console.log(id);
 
     const { attributes, body } = HookPost(id);
     const title = attributes['title']

@@ -2,36 +2,32 @@ import '@scss/Posts.scss';
 import { FindAllPosts } from '@root/utils/post';
 import { useEffect, useState } from 'react';
 import WritingItem from '@root/components/WritingItem';
-import data from '@root/datas/data.json'
-
-type postsPros = {
-    fileName : string
-}
+import { Post } from '@root/react-app-env';
+import { InitPostMap } from '@utils/post';
 
 const Posts = () => {
-    const [postNames, setPosts] = useState<postsPros[]>([]);
+    const [posts, setPosts] = useState<Post[]>([]);
     useEffect(() => {
         resetPosts();
     },[])
 
     const resetPosts = () => {
         setPosts([]);
-        FindAllPosts().forEach(postName => {
-            let post:postsPros = {
-                fileName: postName
-            }
-            setPosts(prevPosts => [...prevPosts, post]);
-          });
+        FindAllPosts().forEach(post => {
+            console.log(post);
+            setPosts(prev => [...prev,post]);
+        });
       };
-
-    console.log(data);
     return (
         <div className="posts">
-            {postNames.map((pros, index) => (
+            {posts.map((post, index) => (
                 <WritingItem
                     key={index}
-                    id={pros.fileName}
-                />
+                    id={post.id}
+                    attributes={post.attributes}
+                    body={post.body}
+                    bodyBegin={post.bodyBegin}
+                    frontmatter={post.frontmatter}                />
             ))}
         </div>
     )

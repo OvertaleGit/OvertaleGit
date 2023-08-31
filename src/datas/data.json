@@ -1,1 +1,1 @@
-["dummy.md","guid.md"]
+{"posts":[{"id":"dummy.md","content":"---\r\ntitle             : 테스트\r\ndescription       : Testings\r\ndate              : 2023-02-23\r\n---\r\n\r\n# 테스트중입니다\r\n테스팅테스팅"},{"id":"guid.md","content":"---\r\ntitle             : 양식글\r\ndescription       : 가이드라인입니다\r\ndate              : 2023-08-31\r\n---\r\n\r\n# 제목글\r\n본문\r\n```\r\nint index = 0;\r\n```"}]}

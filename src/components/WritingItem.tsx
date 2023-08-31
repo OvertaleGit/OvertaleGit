@@ -1,17 +1,16 @@
 import { useNavigate } from 'react-router-dom';
 import '@scss/WritingItem.scss';
-import HookPost from '@root/hooks/hookPost';
 import moment from 'moment';
-
-type postsPros = {
-    id : string
-}
+import { Post } from '@root/react-app-env';
 
 const WritingItem = ({
-  id
-}: Omit<postsPros, 'content'>) => {
+  id,
+  attributes,
+  body,
+  bodyBegin,
+  frontmatter,
+}: Omit<Post, 'content'>) => {
   const navigate = useNavigate();
-  const {attributes } = HookPost(id)
   const title = attributes['title']
   const description = attributes['description']
   let dateObject = attributes['date'];
