@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkovertale_git_training=self.webpackChunkovertale_git_training||[]).push([[836],{9836:function(e,t,a){e.exports=a.p+"static/media/guid.85aaccdd3e8a3d310b2c.md"}}]);

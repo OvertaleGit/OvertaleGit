@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/OvertaleGit/static/css/main.073c9b0a.css",
-    "main.js": "/OvertaleGit/static/js/main.453b5ec7.js",
-    "static/js/787.c01559cd.chunk.js": "/OvertaleGit/static/js/787.c01559cd.chunk.js",
-    "static/media/logo.svg": "/OvertaleGit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/OvertaleGit/static/css/main.586a221f.css",
+    "main.js": "/OvertaleGit/static/js/main.b32c7a7f.js",
+    "static/js/278.b195253a.chunk.js": "/OvertaleGit/static/js/278.b195253a.chunk.js",
+    "static/js/836.dc1f9a4b.chunk.js": "/OvertaleGit/static/js/836.dc1f9a4b.chunk.js",
     "index.html": "/OvertaleGit/index.html",
-    "main.073c9b0a.css.map": "/OvertaleGit/static/css/main.073c9b0a.css.map",
-    "main.453b5ec7.js.map": "/OvertaleGit/static/js/main.453b5ec7.js.map",
-    "787.c01559cd.chunk.js.map": "/OvertaleGit/static/js/787.c01559cd.chunk.js.map"
+    "static/media/guid.md": "/OvertaleGit/static/media/guid.85aaccdd3e8a3d310b2c.md",
+    "static/media/dummy.md": "/OvertaleGit/static/media/dummy.17e3d128c7758e629e40.md",
+    "main.586a221f.css.map": "/OvertaleGit/static/css/main.586a221f.css.map",
+    "main.b32c7a7f.js.map": "/OvertaleGit/static/js/main.b32c7a7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.453b5ec7.js"
+    "static/css/main.586a221f.css",
+    "static/js/main.b32c7a7f.js"
   ]
 }
