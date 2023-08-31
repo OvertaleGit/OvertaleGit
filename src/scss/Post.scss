@@ -1,0 +1,18 @@
+/* Font Size */
+$text-small : 14px;
+$text-medium : 16px;
+$text-large : 18px;
+
+.Post {
+  margin: 1em 5em;
+  text-align: left;
+  justify-content: left;
+}
+
+.Post .Title {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}

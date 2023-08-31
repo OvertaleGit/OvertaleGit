@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.2rem 5rem;
+  text-align: left;
+
+  transition: border 0.3s ease;
+
+  cursor: pointer;
+
+  &:hover {
+    border-left: 4px solid #6b7d70;
+  }
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+
+  font-size: 0.9rem;
+
+  color: gray;
+
+  white-space: nowrap;
+
+  img {
+    width: 1rem;
+  }
+}

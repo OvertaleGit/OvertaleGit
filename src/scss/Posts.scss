@@ -1,0 +1,38 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 3em 10em
+  }
+  
+  .category-container {
+    display: flex;
+    gap: 1.5rem;
+  
+    overflow-x: scroll;
+  
+    padding: 0 1.5rem;
+  }
+  
+  .category {
+    background-color: #434040;
+    color: #fff;
+  
+    border-radius: 8px;
+    padding: 0 0.5rem;
+  
+    white-space: nowrap;
+  
+    transition: background-color 0.3s;
+  
+    cursor: pointer;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  
+    &.selected,
+    &:hover {
+      background-color: #434040;
+    }
+  }

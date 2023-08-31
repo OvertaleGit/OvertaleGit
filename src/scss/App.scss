@@ -1,0 +1,92 @@
+/* Font Size */
+$text-small : 14px;
+$text-medium : 16px;
+$text-large : 18px;
+
+a {
+  color:inherit;
+  text-decoration: none;
+  transition: none;
+}
+ul {
+  list-style: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: $text-medium;
+  line-height: 1.5;
+}
+.App >div {
+  margin-top: 1em;
+  width: 80%;
+}
+
+.App-header {
+  position: relative;
+  border-bottom: 0.2em solid #f2f3f3;
+  z-index: 20;
+  margin-left: 3em;
+  margin-right: 3em;
+  padding: 1em;
+  max-width: 100%;
+  min-height: 2em;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  margin: 0 1;
+  color: #6f777d;
+  align-self: center;
+  font-weight: bold;
+  font-size: $text-large;
+  display: flex;
+  align-items: center;
+}
+.App-logo:hover {
+  color: #000000;
+}
+
+.App-logo img {
+  max-width: 3em;
+  max-height: auto;
+}
+.App-logo span {
+  margin-left: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+.App ul {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.App ul li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.App button {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 2rem;
+  border: 0;
+  outline: none;
+  color: #6f777d;
+  background-color: transparent;
+}
+
+.Main {
+  margin: 3em;
+}
