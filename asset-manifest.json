@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/OvertaleGit/static/css/main.586a221f.css",
-    "main.js": "/OvertaleGit/static/js/main.bcdcb6c9.js",
+    "main.js": "/OvertaleGit/static/js/main.bd17a8b4.js",
     "static/js/278.b195253a.chunk.js": "/OvertaleGit/static/js/278.b195253a.chunk.js",
     "static/js/836.dc1f9a4b.chunk.js": "/OvertaleGit/static/js/836.dc1f9a4b.chunk.js",
     "index.html": "/OvertaleGit/index.html",
     "static/media/guid.md": "/OvertaleGit/static/media/guid.85aaccdd3e8a3d310b2c.md",
     "static/media/dummy.md": "/OvertaleGit/static/media/dummy.17e3d128c7758e629e40.md",
     "main.586a221f.css.map": "/OvertaleGit/static/css/main.586a221f.css.map",
-    "main.bcdcb6c9.js.map": "/OvertaleGit/static/js/main.bcdcb6c9.js.map"
+    "main.bd17a8b4.js.map": "/OvertaleGit/static/js/main.bd17a8b4.js.map"
   },
   "entrypoints": [
     "static/css/main.586a221f.css",
-    "static/js/main.bcdcb6c9.js"
+    "static/js/main.bd17a8b4.js"
   ]
 }
