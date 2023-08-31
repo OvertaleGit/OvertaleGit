@@ -2,6 +2,7 @@ import '@scss/Posts.scss';
 import { FindAllPosts } from '@root/utils/post';
 import { useEffect, useState } from 'react';
 import WritingItem from '@root/components/WritingItem';
+import data from '@root/datas/data.json'
 
 type postsPros = {
     fileName : string
@@ -22,6 +23,8 @@ const Posts = () => {
             setPosts(prevPosts => [...prevPosts, post]);
           });
       };
+
+    console.log(data);
     return (
         <div className="posts">
             {postNames.map((pros, index) => (
