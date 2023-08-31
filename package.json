@@ -33,7 +33,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "craco start",
+    "start": "node scripts/createDataJson.js && craco start",
     "build": "craco build && node scripts/createDataJson.js",
     "test": "craco test",
     "eject": "react-scripts eject"
