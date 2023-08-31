@@ -1,6 +1,6 @@
-import { useState, useEffect, Attributes } from 'react'
+import { useState, useEffect } from 'react'
 import '@scss/Post.scss'
-import { GetPost, Parse } from '@root/utils/post';
+import { GetPost } from '@root/utils/post';
 import { Post } from '@root/react-app-env';
 
 export const HookPost=(id:any):Post=> {

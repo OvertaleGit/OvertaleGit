@@ -3,7 +3,6 @@ import { FindAllPosts } from '@root/utils/post';
 import { useEffect, useState } from 'react';
 import WritingItem from '@root/components/WritingItem';
 import { Post } from '@root/react-app-env';
-import { InitPostMap } from '@utils/post';
 
 const Posts = () => {
     const [posts, setPosts] = useState<Post[]>([]);
